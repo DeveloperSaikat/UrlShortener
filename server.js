@@ -3,8 +3,7 @@ const mongoose = require('mongoose');
 const shortUrl = require('./models/shortUrl');
 const app = express();
 
-const MongoDBUri = 'mongodb+srv://saikatdevworks:cJQjt0HhOoxexSf6@test-cluster.kfa5qnw.mongodb.net/urls?w=majority'
-
+const MongoDBUri = '#'
 mongoose.connect(MongoDBUri, {
     useNewUrlParser: true, useUnifiedTopology: true
 })
